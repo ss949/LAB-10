@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<html>
+<head></head>
+<body></body>
+</html>
+<title>Hi</title>
+
+<div id="output"></div>
+<button onclick="greetUser('John')">Greet John</button>
+<button onclick="greetUser('Jane')">Greet Jane</button>
+
+<script src="greetUser.js"></script>
+
+<br>
+
+<p id="message">Initial text</p>
+<button onclick="changeText()">Click Me</button>
+
+<script>
+function changeText() {
+    var messageElement = document.getElementById("message");
+    messageElement.innerText = "Hello, World!";
+    }
+  </script>
+
+<input type="number" id="number1">
+<input type="number" id="number2">
+<button id="sumbit" onclick="addNumbers()">Add numbers</button>
+<div id="result"></div>
+
+<input type="text" id="input1" placeholder="Enter first string">
+<input type="text" id="input2" placeholder="Enter second string">
+
+<button onclick="concatenateStrings()">Concatenate</button>
+
+<p id="combinedText"></p>
+
+<script>
+    const button = document.getElementById("changeBackgroundBtn");
+    const colorBox = document.getElementById("colorBox");
+    button.addEventListener("click", function() {
+      colorBox.style.backgroundColor = "blue";
+    });
+  </script>
