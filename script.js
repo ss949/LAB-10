@@ -16,11 +16,10 @@ function updateTitle(){
     var inputValue = document.getElementById("inputField").value
     document.getElementById("title").innerText = inputValue
 
-    function concatenateText() {
-        var input1 = document.getElementById("input1").value
-        var input2 = document.getElementById("input2").value
-        var combined = input1 + " " + input2
-        document.getElementById("combinedText").innerText = combined
+function concatenateText() {
+    var input1 = document.getElementById("input1").value
+    var input2 = document.getElementById("input2").value        var combined = input1 + " " + input2
+    document.getElementById("combinedText").innerText = combined
     }
     
     var button = document.getElementById("changeBackground")
